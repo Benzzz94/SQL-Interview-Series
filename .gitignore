@@ -1,0 +1,4 @@
+cases/*/out/
+__pycache__/
+*.pyc
+.venv/
