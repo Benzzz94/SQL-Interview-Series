@@ -1,4 +1,4 @@
-# SQL Interview Series — Runnable Cases
+# SQL Interview Series - Runnable Cases
 
 [![CI](https://github.com/Benzzz94/SQL-Interview-Series/actions/workflows/ci.yml/badge.svg)](https://github.com/Benzzz94/SQL-Interview-Series/actions)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
