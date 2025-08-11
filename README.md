@@ -15,6 +15,7 @@ python -m venv .venv
 # macOS/Linux: source .venv/bin/activate
 pip install -r requirements.txt
 python scripts/run_case.py cases/01_min_per_group
+```
 
 ## What's inside
 - `cases/01_min_per_group/` — one complete example (data + SQL + expected result)
@@ -26,7 +27,7 @@ pip install -r requirements.txt
 
 # Run the included example
 python scripts/run_case.py cases/01_min_per_group
-```
+
 
 You will see `cases/01_min_per_group/out/actual.csv`.
 Compare it with `cases/01_min_per_group/expected.csv` (they should match).
