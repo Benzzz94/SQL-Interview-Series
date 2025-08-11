@@ -23,7 +23,9 @@ python scripts/run_case.py cases/01_min_per_group
 - `requirements.txt` — only DuckDB
 - `.gitignore` — ignores per-case outputs
 
+```
 pip install -r requirements.txt
+```
 
 # Run the included example
 python scripts/run_case.py cases/01_min_per_group
