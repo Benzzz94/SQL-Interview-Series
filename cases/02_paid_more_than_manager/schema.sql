@@ -1,0 +1,7 @@
+-- Documented schema (for reference). The loader will create the table from CSV.
+-- CREATE TABLE employee(
+--   employee_id INTEGER,
+--   name        TEXT,
+--   manager_id  INTEGER,   -- NULL for top-level
+--   salary      DOUBLE
+-- );
