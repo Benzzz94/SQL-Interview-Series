@@ -53,9 +53,9 @@ Open a case folder:
 
 ## Why DuckDB?
 
-- **Zero setup** — runs in-process, perfect for small, reproducible exercises.  
-- **CSV-first** — read CSVs directly without external services.  
-- **CI-friendly** — consistent results on any OS.
+- **Zero setup** - runs in-process, perfect for small, reproducible exercises.  
+- **CSV-first** - read CSVs directly without external services.  
+- **CI-friendly** - consistent results on any OS.
 
 ---
 
