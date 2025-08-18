@@ -43,11 +43,11 @@ Open a case folder:
 
 ## What’s in each case?
 
-- **`problem.md`** – Short prompt & schema.  
-- **`data.csv`** – Small, focused dataset (with edge cases).  
-- **`load_duckdb.sql`** – Loads the CSV into DuckDB tables.  
-- **`solution.sql`** – Clean, final query (ends with `ORDER BY` for stable output).  
-- **`expected.csv`** – Golden output used by the runner to verify results.
+- **`problem.md`** - Short prompt & schema.  
+- **`data.csv`** - Small, focused dataset (with edge cases).  
+- **`load_duckdb.sql`** - Loads the CSV into DuckDB tables.  
+- **`solution.sql`** - Clean, final query (ends with `ORDER BY` for stable output).  
+- **`expected.csv`** - Golden output used by the runner to verify results.
 
 ---
 
