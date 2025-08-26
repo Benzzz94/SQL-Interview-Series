@@ -1,0 +1,6 @@
+-- Reference schema
+-- CREATE TABLE transactions(
+--   user_id INTEGER,
+--   spend DECIMAL(10,2),
+--   transaction_date TIMESTAMP
+-- );
