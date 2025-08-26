@@ -21,6 +21,7 @@ pip install -r requirements.txt
 # Run any case (writes out/actual.csv and compares to expected.csv if present)
 python scripts/run_case.py cases/01_min_per_group
 python scripts/run_case.py cases/02_paid_more_than_manager
+python scripts/run_case.py cases/03_third_transaction_per_user
 ```
 
 ### View problems & solutions on GitHub
