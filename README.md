@@ -35,11 +35,12 @@ Open a case folder:
 
 ## Current cases
 
-| #  | Title                                   | Folder                                                                         | What it shows                                                         |
-|----|-----------------------------------------|--------------------------------------------------------------------------------|-----------------------------------------------------------------------|
-| 01 | Min row(s) per ticker (ties OK)         | [`cases/01_min_per_group/`](cases/01_min_per_group/)                           | Window `MIN()` per group + tie-safe filter; deterministic ordering.   |
-| 02 | Employees paid more than their manager  | [`cases/02_paid_more_than_manager/`](cases/02_paid_more_than_manager/)         | Self-join on `manager_id` + salary comparison; handles NULL managers. |
-| 03 | Third transaction per user              | [`cases/03_third_transaction_per_user/`](cases/03_third_transaction_per_user/) | ROW_NUMBER() per user; stable timestamp parsing.                      |
+| #  | Title                                   | Folder                                                                         | What it shows                                                                                 |
+|----|-----------------------------------------|--------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------|
+| 01 | Min row(s) per ticker (ties OK)         | [`cases/01_min_per_group/`](cases/01_min_per_group/)                           | Window `MIN()` per group + tie-safe filter; deterministic ordering.                           |
+| 02 | Employees paid more than their manager  | [`cases/02_paid_more_than_manager/`](cases/02_paid_more_than_manager/)         | Self-join on `manager_id` + salary comparison; handles NULL managers.                         |
+| 03 | Third transaction per user              | [`cases/03_third_transaction_per_user/`](cases/03_third_transaction_per_user/) | ROW_NUMBER() per user; stable timestamp parsing.                                              |
+| 04 | 3-topping pizza cost combinations       | cases/04_three_topping_pizzas/                                                 | 3-way self-join with < to dedupe permutations; sum costs; 2-column output; tie-break by name. |
 ---
 
 ## What’s in each case?
