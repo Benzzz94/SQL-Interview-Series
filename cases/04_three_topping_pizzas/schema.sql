@@ -1,0 +1,5 @@
+-- Reference schema
+-- CREATE TABLE pizza_toppings(
+--   topping_name TEXT,
+--   ingredient_cost DECIMAL(10,2)
+-- );
